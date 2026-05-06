@@ -8,8 +8,8 @@ Takes random-ish samples from an input mp3 or wav and assigns 15 of them to each
 ### Sample Engine
 
 - Auto-Extraction: Loads any .wav or .mp3 and uses librosa to automatically slice transients and categorize them by sonic profile (Kick, Snare, Hats, Toms, Crash).
-- Cycle & Rescan: Cycle through 15 curated samples per channel. Hold the Cycle button to command a background thread to dig into the audio file and rip 15 brand new samples for that specific drum.
-- Sample Trimming: Dual-handle sliders on each channel to visually set the exact start and stop times (0–300ms) of the drum hits.
+- Cycle & Rescan: Cycle through 15 curated samples per channel. Hold the Cycle button to get 15 brand new samples for that specific drum, available during playback.
+- Sample Trimming: Dual-handle sliders on each channel to visually set sample start and stop times (0–300ms) of the drum hits.
 
 ### Sequencing & Performance
 
