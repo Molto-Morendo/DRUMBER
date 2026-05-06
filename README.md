@@ -14,22 +14,21 @@ Takes random-ish samples from an input mp3 or wav and assigns 15 of them to each
 ### Sequencing & Performance
 
 - Dynamic Grid: 8 channels over 8, 16, or 32 steps. Expand the grid and it automatically loops your beat into the newly created space. Left-click/drag to paint beats, right-click to erase.
-- Burst Mode: Hold the "BURST" button to instantly multiply the tempo (from 0.5x up to 8x) for real-time stutters and fills. When released, it drops you perfectly back onto the underlying master clock.
-- Euclidean Generator: Generate complex polyrhythms instantly. Includes weighted "Dice" randomizers per-channel or globally that favor groove-friendly mathematical divisions.
-- Pattern Snapshots: 4 switchable patterns that save not just the sequence, but a snapshot of every single channel setting (volume, pitch, FX sends, etc.).
+- Burst Mode: Hold the "BURST" button to multiply the tempo (from 0.5x up to 8x) for real-time stutters and fills. When released, it drops you back onto the underlying master clock.
+- Euclidean Generator: Generate complex polyrhythms instantly. Includes weighted "Dice" randomizers per-channel or globally that use a custom euclidean probability to generate unique beats.
+- Pattern Snapshots: 4 switchable patterns that save the sequence with a snapshot of each channel setting (volume, pitch, FX sends, etc.).
 
 ### Modulation & FX Rack
 
-- LFO Mod Matrix: 3 independent LFOs (Sine, Triangle, Square, Random) that can go as slow as 4 BPM or sync to note divisions. Middle-click any knob, slider, or grid step in the entire UI to instantly animate it with an LFO.
+- LFO Mod Matrix: 3 independent LFOs (Sine, Triangle, Square, Random) that can go as slow as 4 BPM or sync to note divisions. Middle-click any knob, slider, or grid step in the entire UI to target it with an LFO. Click "X" beside LFO to disengage.
 - Studio FX Chain: 3 serial master FX buses (FX1 -> FX2 -> FX3) powered by Spotify's pedalboard (Reverb, Delay, Distortion, Compressor, Resonant LPF).
-- Custom UI Knobs: Custom-drawn, hardware-style rotary dials for FX tuning, Master Sends, and Global parameters.
 
 ### Workflow & Quality of Life
 
 - Advanced Undo System: Global 24-step Undo button, plus targeted independent Undos (Right-click any global randomize button to revert just what that button changed).
 - Ctrl-Hold Tweaking: Hold Ctrl while moving any slider/knob to instantly mirror that adjustment across all unlocked channels simultaneously.
 - Channel Locks: Lock individual channels to protect them from global randomizers and Ctrl-group tweaks.
-- Live Recording: Hit "Record" to bounce your live jam directly to a .wav file on your hard drive.
+- Live Recording: Hit "Record" to record and save directly to a .wav file on your hard drive.
 
 # INSTALL AND RUN
 
