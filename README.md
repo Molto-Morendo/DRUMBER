@@ -51,3 +51,32 @@ Run with:
 
 `python3 drumber10.py`
 
+# UPDATES
+8.3 v2: 
+
+DSP & Audio Engine Enhancements
+-Stutter Engine: Replaced the "Burst" (BPM multiplier) system with a real-time Audio Buffer Stutter. It captures a slice of the master output and loops it with 1ms crossfades to prevent clicks, while keeping the background sequencer perfectly in sync.
+-Reverse Playback: Added a per-channel Reverse (R) toggle that flips audio samples for backwards playback without affecting timing.
+-Chorus Effect: Integrated a global Chorus effect into the FX rack options.
+-Triplet Stuttering: Expanded stutter divisions to include valid triplet values (e.g., 1/4T, 1/8T, 1/16T, 1/32T).
+-BPM Auto-Detection: The engine now automatically analyzes loaded files to estimate their native tempo and updates the global BPM (toggleable in Options).
+
+UI & Visualization
+-Playback Head: Added a visual "glow" indicator in the sequencer grid that highlights the current active step across all channels during playback.
+-Resolution Increase: Updated the initial window geometry to 1450x1075 to better accommodate the mixer and sequencer layout.
+-Keyboard Shortcuts: Enabled Spacebar to toggle Play/Stop (safeguarded against firing while typing in dialogs).
+-Visual Feedback: Enhanced the "Reverse" and "Stutter" buttons with color-coded states for better visibility.
+
+Workflow & Control Logic
+-Sample Swapping Context Menu: Added a right-click menu to Channel names that allows users to "Send sample to" another channel. This performs a physical sample swap between tracks and automatically selects the new index for immediate playback.
+-Stutter Mute Modes: Implemented dual stutter behavior: Left-click allows background audio to play through; Right-click mutes the background for "solo" stutter effects.
+-Enhanced LFO Mapping:
+        Fixed a crash when mapping Euclidean sliders to LFOs.
+        Enabled 🎲 (Dice) buttons as LFO targets, allowing LFOs to trigger random pattern generation.
+        Added middle-click LFO support for the Stutter button and Stutter division knob.
+-Mass Slider Control: Fixed the "Ctrl + Drag" logic to ensure the Cycle slider now correctly adjusts all channels simultaneously, matching the behavior of other sliders.
+
+Randomization & Resets
+-Fade Randomization: Replaced global Pitch randomization with a Fade (Fad) randomizer for creating evolving rhythmic envelopes.
+-Double-Click Resets: Double-clicking the "Fad" randomizer now resets all channel fades to default values (0ms In / 100% Out).
+-Options Menu Expansion: Added toggles for Stutter background behavior and Auto-BPM detection.
