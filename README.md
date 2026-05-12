@@ -40,6 +40,7 @@ pip install numpy librosa sounddevice customtkinter scipy pedalboard
 `
 
 If you are on macOS or Linux, you might also need to install the underlying PortAudio system library for sounddevice to work, and the Tkinter framework for the GUI:
+
 Ubuntu/Debian: 
 
 `sudo apt-get install libportaudio2 python3-tk`
