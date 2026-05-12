@@ -844,7 +844,7 @@ class DrumMachineApp(ctk.CTk):
     def __init__(self, engine):
         super().__init__()
         self.engine, self.extractor, self.current_audio_file, self.first_load_done = engine, DrumbExtractor(), None, False
-        self.title("Drumber v10.3"); self.geometry("1450x1075"); ctk.set_appearance_mode("Dark"); self.configure(fg_color="#0A0A0A") 
+        self.title("Drumber v10.3.1"); self.geometry("1450x1075"); ctk.set_appearance_mode("Dark"); self.configure(fg_color="#0A0A0A") 
         self.ch_ui_refs, self.fx_ui_refs, self.lfo_ui_refs, self.g_ui_refs, self.g_lbl_refs = {},[],[], {}, {}
         self.widget_to_step, self.grid_buttons, self.widget_to_lfo_target = {}, {}, {}
         self.target_updater_map = {}
