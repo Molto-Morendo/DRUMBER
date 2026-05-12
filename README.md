@@ -1,7 +1,7 @@
-# DRUMBER
+# DRUMBER 10.3
 
 Takes random-ish 300ms samples from an input mp3 or wav and assigns 15 of them to each drum channel. Shape and cycle through them using euclidean divisions and randomness, along with 4 LFOs and 3 assignable FX.
-<img width="1813" height="1286" alt="image" src="https://github.com/user-attachments/assets/fd6562f7-0aca-470b-a3aa-fb792b82ae1c" />
+<img width="1812" height="1382" alt="image" src="https://github.com/user-attachments/assets/7a98683a-33e6-4558-bcdc-93becea04ab8" />
 
 ## Features:
 
@@ -52,7 +52,7 @@ Run with:
 `python3 drumber10.py`
 
 # UPDATES
-8.3 v2: 
+8.3: 
 
 DSP & Audio Engine Enhancements
 - Stutter Engine: Replaced the "Burst" (BPM multiplier) system with a real-time Audio Buffer Stutter. It captures a slice of the master output and loops it with 1ms crossfades to prevent clicks, while keeping the background sequencer perfectly in sync.
