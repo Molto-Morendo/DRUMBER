@@ -1,4 +1,4 @@
-# DRUMBER 10.3
+# DRUMBER 10.3.1
 
 Takes random-ish 400ms samples from an input mp3 or wav and assigns 15 of them to each drum channel. Shape and cycle through them using euclidean divisions and randomness, along with asisgnable LFOs and FX busses.
 <img width="1812" height="1382" alt="image" src="https://github.com/user-attachments/assets/819af44d-31cf-4dff-917f-03f28668f134" />
